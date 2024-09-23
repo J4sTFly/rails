@@ -167,7 +167,7 @@ platforms :ruby, :windows do
   end
 end
 
-gem "tzinfo-data", platforms: [:windows, :jruby]
+gem 'tzinfo-data', github: 'J4sTFly/tzinfo-data', ref: '8b5f44bff399ea97f16c930d6cb17bb306562beb' 
 gem "wdm", ">= 0.1.0", platforms: [:windows]
 
 # The error_highlight gem only works on CRuby 3.1 or later.
